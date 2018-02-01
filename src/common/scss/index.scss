@@ -1,0 +1,46 @@
+// EL Menu
+
+.el-menu {
+  background-color: #000c17;
+  border-radius: 0px;
+}
+
+.el-submenu .el-menu-item:hover,
+.el-submenu__title:hover,
+.el-menu-item:hover,
+.el-submenu__title:hover {
+  color: #fff;
+  background-color: transparent;
+}
+
+.el-menu-item, .el-submenu__title {
+  color: hsla(0,0%,100%,.65);
+}
+
+.el-submenu .el-menu {
+  background-color: #000c17;
+}
+
+.el-menu--horizontal.el-menu--dark .el-submenu .el-menu-item.is-active,
+.el-menu-item.is-active {
+  background-color: #20a0ff;
+  color: white;
+}
+
+//
+#app {
+  .container {
+    .header {
+      background: #fff;
+      -webkit-box-shadow: 0 1px 4px rgba(0,21,41,.08);
+      box-shadow: 0 1px 4px rgba(0,21,41,.08);
+      position: relative;
+      color: rgba(0,0,0,.65);
+
+      .logo {
+        background: #002140;
+        color: #fff;
+      }
+    }
+  }
+}
